@@ -1,0 +1,11 @@
+{
+  "name": "calculator-test-app",
+  "version": "1.0.0",
+  "description": "Quick Node.js calculator app",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  }
+}
