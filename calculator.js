@@ -1,6 +1,6 @@
 function validateNumbers(a, b) {
-  const numA = Number(a);
-  const numB = Number(b);
+  const numA = Num(a);
+  const numB = Num(b);
 
   if (Number.isNaN(numA) || Number.isNaN(numB)) {
     throw new Error('Both inputs must be valid numbers.');
