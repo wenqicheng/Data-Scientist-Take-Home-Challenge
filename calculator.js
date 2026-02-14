@@ -6,7 +6,7 @@ function validateNumbers(a, b) {
     throw new Error('Both inputs must be valid numbers.');
   }
 
-  return { numD, numC };
+  return { numA, numB };
 }
 
 function add(a, b) {
